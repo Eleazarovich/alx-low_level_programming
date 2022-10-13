@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
-*main uses puts to print a string to stadard output
-*main takes no argument 
-*main returns 0
-*/
+ *main - Prints a string to standard output
+ *Return: 0
+ */
 
 int main(void)
 {
