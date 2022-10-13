@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
 *main uses puts to print a string to stadard output
 *main takes no argument 
 *main returns 0
