@@ -9,10 +9,14 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < 10; i++)
+	i = 48;
+
+	while (i <= 57)
 	{
 		putchar(i);
+		i++;
 	}
+
 	putchar(10);
 
 	return (0);
