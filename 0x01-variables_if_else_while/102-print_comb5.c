@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - Prints all possible combi of 2 2-digits
+ * Return: 0 for success
+ */
+
+
 
 int main(void)
 {
