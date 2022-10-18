@@ -1,12 +1,8 @@
-#include <stdio.h>
+#include <main.h>
 
-void print_alphabet_x10(void);
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
+/**
+ * print_alphabet_x10 - Prints alphas x 10
+ */
 
 void print_alphabet_x10(void)
 {
@@ -16,8 +12,10 @@ void print_alphabet_x10(void)
 	{
 		for (j = 'a'; j <= 'z'; j++)
 		{
-			putchar(j);
+			_putchar(j);
 		}
-	}	
-	putchar('\n');
+		_putchar('\n');
+	}
 }
+
+
