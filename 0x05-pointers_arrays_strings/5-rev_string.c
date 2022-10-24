@@ -11,6 +11,7 @@ void rev_string(char *s)
 
 	len = _strlen(s);
 	mid_len = (len / 2);
+
 	int i;
 
 	char c;
