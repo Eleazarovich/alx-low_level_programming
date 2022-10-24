@@ -12,8 +12,10 @@ void print_rev(char *s)
 
 	a = 0;
 
-	while(*(s + a))
+	while (*(s + a))
+	{
 		a++;
+	}
 	a = a - 1;
 	while (a >= 0)
 	{
