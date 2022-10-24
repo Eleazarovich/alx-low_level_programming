@@ -7,14 +7,11 @@
 
 void rev_string(char *s)
 {
-	int len, mid_len;
+	int len, mid_len, i;
+	char c;
 
 	len = _strlen(s);
 	mid_len = (len / 2);
-
-	int i;
-
-	char c;
 
 	for (i = 0; i < mid_len; i++)
 	{
