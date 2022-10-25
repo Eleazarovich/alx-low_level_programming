@@ -33,8 +33,8 @@ int _atoi(char *s)
 			break;
 		}
 		j = k * j;
-		return (j);
 	}
+	return (j);
 }
 
 
