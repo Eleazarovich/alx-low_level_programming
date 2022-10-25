@@ -34,5 +34,7 @@ int _atoi(char *s)
 		}
 		j = k * j;
 		return (j);
+	}
+}
 
 
