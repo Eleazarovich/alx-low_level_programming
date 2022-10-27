@@ -16,9 +16,9 @@ char *rot13(char *s)
 	{
 		for (j = 0; s[j] != '\0'; j++)
 		{
-			if (s[i] == alpha[y])
+			if (s[i] == alpha[j])
 			{
-				s[i] = rot[y];
+				s[i] = rot[j];
 				break;
 			}
 		}
