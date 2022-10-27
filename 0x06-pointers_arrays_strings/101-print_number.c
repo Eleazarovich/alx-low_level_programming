@@ -25,6 +25,4 @@ void print_number(int n)
 	_putchar((x % 10) + 48);
 
 	_putchar('\n');
-
-	return (0);
 }
