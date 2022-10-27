@@ -9,7 +9,7 @@
 char *leet(char *s)
 {
 	int i, j;
-	char leets[] = "ol_ea_t";
+	char leets[] = "ol_ea__t";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
