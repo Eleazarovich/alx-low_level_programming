@@ -20,7 +20,7 @@ char *cap_string(char *s)
 		}
 		for (j = 0; separators[j] != '\0'; j++)
 		{
-			if (s[i] == separators[j] && s[i + 1] >= 97 && s[x + 1] <= 122)
+			if (s[i] == separators[j] && s[i + 1] >= 97 && s[i + 1] <= 122)
 			{
 				s[i + 1] = s[i + 1] - 32;
 			}
