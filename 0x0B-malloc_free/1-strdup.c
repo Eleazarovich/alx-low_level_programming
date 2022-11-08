@@ -40,6 +40,6 @@ char *_strdup(char *str)
 
 	while (*str)
 		duplicate[i++] = *str++;
-	new[i] = '\0';
+	duplicate[i] = '\0';
 	return (duplicate);
 }
