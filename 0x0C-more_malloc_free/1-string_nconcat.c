@@ -31,15 +31,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	int i;
 
 	if (s1 == NULL)
-		return s1 = "";
+		s1 = "";
 
 	if (s2 == NULL)
-		return s2 = "";
+		s2 = "";
 
 	nconcat_string = malloc(sizeof(char) * _strlen(s1) + n + 1);
 
 	if (nconcat_string == NULL)
-		return NULL;
+		return (NULL);
 
 	for (i = 0; i < _strlen(s1); i++)
 		nconcat_string[i] = s1[i];
