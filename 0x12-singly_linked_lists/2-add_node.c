@@ -14,9 +14,9 @@ list_t *add_node(list_t **head, const char *str)
 	struct list_s *new = malloc(sizeof(struct list_s));
 
 	new->str = strdup(str);
-	new->link = NULL;
+	new->next = NULL;
 
-	new->link = *head;
+	new->next = *head;
 	*head = new;
 
 	return (new);
