@@ -3,6 +3,7 @@
 /**
  * free_listint2 - frees a `listint_t` list
  * @head: pointer pointing at the first node
+ * Return: no return
  */
 
 void free_listint2(listint_t **head)
