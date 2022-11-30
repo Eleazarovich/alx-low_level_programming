@@ -14,7 +14,6 @@ size_t print_listint(const listint_t *h)
 
 	listint_t const *ptr = NULL;
 
-	ptr = malloc(sizeof(listint_t));
 	ptr = h;
 
 	i = 0;
